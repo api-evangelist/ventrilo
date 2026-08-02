@@ -1,0 +1,5 @@
+Contact: mailto:security@ventrilo.ai
+Expires: 2027-07-15T00:00:00Z
+Preferred-Languages: en
+Canonical: https://ventrilo.ai/.well-known/security.txt
+Policy: https://ventrilo.ai/security-policy

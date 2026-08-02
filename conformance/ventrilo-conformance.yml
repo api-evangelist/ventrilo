@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+source: https://ventrilo.ai/security-policy
+standards:
+- id: soc2
+  conforms: true
+  evidence: '"SOC 2 Certified" stated on https://ventrilo.ai/security-policy (verified 2026-07-21)'
+- id: rfc9116-security-txt
+  conforms: true
+  evidence: valid security.txt at https://ventrilo.ai/.well-known/security.txt (Contact, Expires, Canonical, Policy) — saved to well-known/ventrilo-security.txt
+- id: oauth2
+  conforms: false
+  evidence: no public API or OAuth surface; /.well-known/openid-configuration and /oauth-authorization-server return 404
+- id: oidc
+  conforms: false
+  evidence: no OpenID Connect discovery document published

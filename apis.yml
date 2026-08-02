@@ -1,7 +1,15 @@
 aid: ventrilo
-name: Ventrilo
-description: Ventrilo is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Ventrilo.ai
+description: 'Ventrilo.ai is a San Francisco AI startup (founded 2023, backed by Andreessen
+  Horowitz, Bloomberg Beta, Conviction, Rain Capital, 112 Capital, and Gil Capital)
+  building an AI browser assistant delivered as a Chrome extension. The product connects
+  your open tabs, remembers context, auto-fills forms, drafts and rewrites text in
+  place, and answers questions grounded in the pages you are working in — "no copy-pasting,
+  no starting over." It ships as a free tier plus a $20/month Plus plan via chat.ventrilo.ai.
+  The company publishes no public developer API, SDKs, or API documentation; its
+  api.ventrilo.ai backend is private (HTTP 401). It does publish an RFC 9116 security.txt,
+  a responsible-disclosure security policy with safe harbor, and claims SOC 2 certification.
+  Not related to the classic Ventrilo VoIP software.'
 url: https://raw.githubusercontent.com/api-evangelist/ventrilo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +17,77 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://ventrilo.ai/assets/ventrilo-og-Bwc5r16B.png
 tags:
 - Company
+- Artificial Intelligence
+- AI Assistant
+- Browser Extension
+- Productivity
+- Writing
+- Chrome Extension
+- San Francisco
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://ventrilo.ai
+- type: About
+  url: https://ventrilo.ai/about
+- type: Pricing
+  url: https://ventrilo.ai/pricing
+- type: SignUp
+  url: https://chat.ventrilo.ai
+- type: Support
+  url: https://help.ventrilo.ai/en/
+- type: ContactUs
+  url: https://ventrilo.ai/contact-us
+- type: TermsOfService
+  url: https://ventrilo.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://ventrilo.ai/privacy-policy
+- type: AcceptableUsePolicy
+  url: https://ventrilo.ai/acceptable-use-policy
+- type: GitHubOrganization
+  url: https://github.com/Ventrilo-ai
+- type: Careers
+  url: https://ventrilo.rippling-ats.com/
+- type: Security
+  url: https://ventrilo.ai/security-policy
+- type: Compliance
+  url: https://ventrilo.ai/security-policy
+- type: SecurityTxt
+  url: well-known/ventrilo-security.txt
+- type: WellKnown
+  url: well-known/ventrilo-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/ventrilo-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/ventrilo-domain-security.yml
+- type: LLMsTxt
+  url: llms/ventrilo-llms.txt
+- type: Conformance
+  url: conformance/ventrilo-conformance.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
