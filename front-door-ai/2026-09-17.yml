@@ -1,0 +1,33 @@
+# Front Door AI Index — ventrilo — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: ventrilo
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: ventrilo.ai
+  final_host: ventrilo.ai
+  ownership: own
+  owner: ventrilo
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 21
+  host_score: 21
+  density: 12.92
+  words: 1626
+  tiers:
+    agentic: 2
+    core: 10
+    model: 9
+  ambiguous: 3
+  top_terms:
+    AI: 9
+    Claude: 3
+    GPT: 3
+    Gemini: 3
+    agent: 2
+    LLMs: 1
+    chatbot: 1
+    prompts: 1
+    smart: 1
