@@ -1,4 +1,4 @@
-# Ventrilo
+# Ventrilo.ai
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ventrilo is a company surfaced as a portfolio company of a16z and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Ventrilo.ai is a San Francisco AI startup (founded 2023, backed by Andreessen Horowitz, Bloomberg Beta, Conviction, Rain Capital, 112 Capital, and Gil Capital) building an AI browser assistant delivered as a Chrome extension. The product connects your open tabs, remembers context, auto-fills forms, drafts and rewrites text in place, and answers questions grounded in the pages you are working in — "no copy-pasting, no starting over." It ships as a free tier plus a $20/month Plus plan via chat.ventrilo.ai. The company publishes no public developer API, SDKs, or API documentation; its api.ventrilo.ai backend is private (HTTP 401). It does publish an RFC 9116 security.txt, a responsible-disclosure security policy with safe harbor, and claims SOC 2 certification. Not related to the classic Ventrilo VoIP software.
 
-Backed by: a16z
+**Areas:** Company · Artificial Intelligence · AI Assistant · Browser Extension · Productivity · Writing · Chrome Extension · San Francisco
+
+## Ventrilo.ai on APIs.io
+
+Everything profiled for Ventrilo.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ventrilo/](https://apis.io/providers/ventrilo/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ventrilo Domain Security](https://apis.io/security/ventrilo/ventrilo-domain-security/)
+- [Ventrilo Vulnerability Disclosure](https://apis.io/security/ventrilo/ventrilo-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ventrilo.ai)
+- [Pricing](https://ventrilo.ai/pricing)
+- [Sign up](https://chat.ventrilo.ai)
+- [Support](https://help.ventrilo.ai/en/)
+- [Security](https://ventrilo.ai/security-policy)
+- [Compliance](https://ventrilo.ai/security-policy)
+- [Terms of service](https://ventrilo.ai/terms-of-use)
+- [Privacy policy](https://ventrilo.ai/privacy-policy)
+- [GitHub](https://github.com/Ventrilo-ai)
+
+## API Evangelist rating
+
+**Kin Score 19.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 39.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 27.3** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ventrilo/](https://apis.io/providers/ventrilo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ventrilo.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ventrilo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
